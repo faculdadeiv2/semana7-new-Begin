@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main>
+        <div class="form-style-5">
+            <form>
+            <fieldset>
+            <legend><span class="number">1</span> Informações da História </legend>
+            <input type="text" name="field1" id="name" placeholder="Nome do Protagonista">
+            <label for="monster">Monstros</label>
+            <select id="monster" name="field4">
+              <option value="zumbis">Zumbis</option>
+              <option value="dragon">Dragões</option>
+              <option value="minotauros">Minotauros</option>
+              <option value="bruxas">Bruxas</option>
+            </select>
+            <label for="esp">Espécie do Protagonista</label>
+            <select id="esp" name="field4">
+              <option value="golf">Golfinho</option>
+              <option value="ogro">Ogro</option>
+              <option value="dino">Dinossauro</option>
+              <option value="human">humano</option>
+            </select>   
+            <label for="arma">Armamento</label>
+            <select id="arma" name="field4">
+              <option value="varinha">Varinha Mágica</option>
+              <option value="motosserra">Motosserra</option>
+              <option value="chicote">Chicote</option>
+              <option value="ball">Bola de Futebol</option>
+            </select>    
+            <label for="local">Local da História</label>
+            <select id="local" name="field4">
+              <option value="dw">Disney World</option>
+              <option value="jundiai">Jundiaí</option>
+              <option value="lua">Lua</option>
+              <option value="konoha">Konoha</option>
+            </select>
+            <label for="acidente">Acidente Ocorrido</label>
+            <select id="acidente" name="field4">
+              <option value="fn">Fissura Nuclear</option>
+              <option value="aa">Ascensão da Anitta</option>
+              <option value="ag">Aquecimento Global</option>
+              <option value="ip">Inversão dos Pólos</option>
+            </select>            
+            </fieldset>
+            <input type="button" onclick="makeHistory()" value="Monte Sua História" />
+            </form>
+            </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
